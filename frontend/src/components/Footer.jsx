@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaPhone, FaEnvelopeOpen, FaTelegramPlane} from 'react-icons/fa';
-import { FiFacebook, FiTwitter} from 'react-icons/fi';
+import { FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
 import './../styles/Footer.css'
 
 function Footer() {
@@ -66,9 +66,9 @@ function Footer() {
                   <a href="#">
                     <FiTwitter className="twitter-bg" />
                   </a>
-                  {/* <a href="#">
-                    <FiGooglePlus className="google-bg" />
-                  </a> */}
+                  <a href="#">
+                    <FiInstagram className="instagram-bg" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -141,8 +141,8 @@ function Footer() {
             <div className="col-xl-12 col-lg-12 text-center text-lg-center text-md-center text-sm-center">
               <div className="copyright-text">
                 <p>
-                  Copyright &copy; 2018, All Right Reserved{' '}
-                  <a href="https://codepen.io/anupkumar92/">Anup</a>
+                  Copyright &copy; 2023, All Right Reserved{' '}
+                  <a href="/">Birds Vaccation</a>
                 </p>
               </div>
             </div>
