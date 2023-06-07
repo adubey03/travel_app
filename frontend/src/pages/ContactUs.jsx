@@ -13,6 +13,7 @@ import {
   CFormLabel,
   CFormTextarea,
 } from "@coreui/react";
+import Footer from "../components/Footer";
 
 const ContactUs = () => {
   const [validated, setValidated] = useState(false);
@@ -103,7 +104,10 @@ const ContactUs = () => {
             </CButton>
           </CCol>
         </CForm>
+
+       
       </div>
+      <Footer></Footer>
     </>
   );
 };

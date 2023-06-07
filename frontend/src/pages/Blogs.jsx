@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 
 const Blogs = () => {
@@ -8,6 +9,8 @@ const Blogs = () => {
     <Header />
     <h1>This is blog page</h1>
     
+
+    <Footer></Footer>
     </>
   )
 }

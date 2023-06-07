@@ -1,13 +1,20 @@
 import React from 'react';
 import Header from '../components/Header';
+import Card from '../components/Card';
+import Footer from '../components/Footer';
+
+
 
 const Packages = () => {
   return (
     <>
     <Header />
-    <p>This is Packages page</p>
-    
+    <Card 
+
+    />
+     <Footer></Footer>
     </>
+
   )
 }
 
