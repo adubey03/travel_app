@@ -10,7 +10,6 @@ const Packages = () => {
     <>
     <Header />
     <Card 
-
     />
      <Footer></Footer>
     </>

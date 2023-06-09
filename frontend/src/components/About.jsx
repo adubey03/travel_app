@@ -1,15 +1,13 @@
 import React from "react";
-import './../styles/About.css'
-import { Divider } from 'antd';
+import "./../styles/About.css";
+import { Divider, Space } from "antd";
 
 const About = () => {
   return (
-    
-    <div>
-        
- 
-      <div>
-    
+    <div >
+      <div className="gap"></div>
+
+      <div className="wave">
         <h1>About us</h1>
         <p>
           Welcome to our travel agency! We are dedicated to providing
@@ -46,14 +44,15 @@ const About = () => {
           Discover the world with confidence and peace of mind, knowing that
           your travel plans are in the hands of professionals who are dedicated
           to delivering exceptional service and unforgettable experiences.
-        </p>
+        </p> <br></br> <br></br>
 
-        <p>
+        <p><b>
           Get in touch with us today and let's start planning your dream
-          vacation!
+          vacation!</b>
         </p>
+        
       </div>
-     <Divider></Divider>
+      <Divider></Divider>
     </div>
   );
 };

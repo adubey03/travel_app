@@ -10,7 +10,7 @@ import {
 
 const  items = [
   {
-    src: 'https://picsum.photos/id/123/1200/400',
+    src: 'https://picsum.photos/id/456/1200/400',
     altText: 'Slide 1',
     caption: 'The world is a book, and those who do not travel read only a page.',
     key: 1,

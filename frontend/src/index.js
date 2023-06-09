@@ -8,6 +8,7 @@ import Services from './pages/Services';
 import Packages from './pages/Packages'
 import Blogs from './pages/Blogs';
 import ContactUs from './pages/ContactUs';
+import AdminLogin from './pages/AdminLogin'
 
 
 
@@ -22,6 +23,8 @@ root.render(
     <Route path='/services' element={<Services />} />
     <Route path='/contact-us' element={<ContactUs />} />
     <Route path='/blogs' element={<Blogs />} />
+    <Route path='/admin-login' element={<AdminLogin />} />
+
 
   </Routes>
   
