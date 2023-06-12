@@ -10,7 +10,6 @@
   height: auto;
   padding: 0px 20px 20px;
 }
-
 .image-container img{
 border-radius: 10px;
 }
@@ -18,7 +17,7 @@ border-radius: 10px;
 .gap{
   height: 50px
 }
-
 .texts{
   text-align: justify
 }
+

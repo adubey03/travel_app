@@ -8,9 +8,8 @@ import Services from './pages/Services';
 import Packages from './pages/Packages'
 import Blogs from './pages/Blogs';
 import ContactUs from './pages/ContactUs';
-import AdminLogin from './pages/AdminLogin'
-
-
+import AdminLogin from './pages/AdminLogin';
+import AdminDashboard from './pages/AdminDashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +23,8 @@ root.render(
     <Route path='/contact-us' element={<ContactUs />} />
     <Route path='/blogs' element={<Blogs />} />
     <Route path='/admin-login' element={<AdminLogin />} />
+    <Route path='/admin-dashboard' element={<AdminDashboard />} />
+
 
 
   </Routes>

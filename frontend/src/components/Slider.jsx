@@ -53,6 +53,7 @@ function Slider(args) {
 
   const slides = items.map((item) => {
     return (
+      
       <CarouselItem 
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
@@ -69,7 +70,9 @@ function Slider(args) {
   });
 
   return (
+   
     <div className='slide'>
+     
     <Carousel
       activeIndex={activeIndex}
       next={next}

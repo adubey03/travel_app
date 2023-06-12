@@ -38,7 +38,7 @@ function Header() {
   };
 
   return (
-    <AppBar className='app-bar' sx={{ display: { backgroundColor:'#FFFFFF', color:'black', }}} position="static">
+    <AppBar className='app-bar' sx={{ display: { backgroundColor:'#FFFFFF', color:'black', position:'fixed'}}} > 
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -57,7 +57,7 @@ function Header() {
               textDecoration: 'none',
             }}
           >
-           Birds Vaccation
+           Birds Vacations
           </Typography>
 
           <Box sx={{ flexGrow: 1,  display: { xs: 'flex', md: 'none' } }}>

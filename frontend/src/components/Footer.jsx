@@ -1,7 +1,13 @@
-import React from 'react';
-import { FaMapMarkerAlt, FaPhone, FaEnvelopeOpen, FaTelegramPlane} from 'react-icons/fa';
-import { FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
-import './../styles/Footer.css'
+import React from "react";
+import {
+  FaMapMarkerAlt,
+  FaPhone,
+  FaEnvelopeOpen,
+  FaTelegramPlane,
+} from "react-icons/fa";
+import { FiFacebook, FiInstagram, FiTwitter } from "react-icons/fi";
+import "./../styles/Footer.css";
+import bd3 from "./../assets/bd3.png";
 
 function Footer() {
   return (
@@ -14,7 +20,7 @@ function Footer() {
                 <FaMapMarkerAlt />
                 <div className="cta-text">
                   <h4>Find us</h4>
-                  <span>3rd Block, Jaynagar, Bangalore</span>
+                  <span> Bangalore</span>
                 </div>
               </div>
             </div>
@@ -23,7 +29,7 @@ function Footer() {
                 <FaPhone />
                 <div className="cta-text">
                   <h4>Call us</h4>
-                  <span>9876543210 0</span>
+                  <span>+91 0990909090</span>
                 </div>
               </div>
             </div>
@@ -43,32 +49,15 @@ function Footer() {
             <div className="col-xl-4 col-lg-4 mb-50">
               <div className="footer-widget">
                 <div className="footer-logo">
-                  <a href="index.html">
-                    <img
-                      src="https://i.ibb.co/QDy827D/ak-logo.png"
-                      className="img-fluid"
-                      alt="logo"
-                    />
+                  <a>
+                    <img src={bd3} className="img-fluid" alt="logo" />
                   </a>
                 </div>
                 <div className="footer-text">
                   <p>
-                    Lorem ipsum dolor sit amet, consec tetur adipisicing elit,
-                    sed do eiusmod tempor incididuntut consec tetur adipisicing
-                    elit,Lorem ipsum dolor sit amet.
+                    Unlock Your Adventure: Discover the World with Our Travel
+                    Agency!
                   </p>
-                </div>
-                <div className="footer-social-icon">
-                  <span>Follow us</span>
-                  <a href="#">
-                    <FiFacebook className="facebook-bg" />
-                  </a>
-                  <a href="#">
-                    <FiTwitter className="twitter-bg" />
-                  </a>
-                  <a href="#">
-                    <FiInstagram className="instagram-bg" />
-                  </a>
                 </div>
               </div>
             </div>
@@ -82,31 +71,19 @@ function Footer() {
                     <a href="#">Home</a>
                   </li>
                   <li>
-                    <a href="#">about</a>
+                    <a href="#">About Us</a>
                   </li>
                   <li>
-                    <a href="#">services</a>
+                    <a href="#">Services</a>
                   </li>
                   <li>
-                    <a href="#">portfolio</a>
+                    <a href="#">Tour Packages</a>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <a href="#">Blogs</a>
                   </li>
                   <li>
-                    <a href="#">About us</a>
-                  </li>
-                  <li>
-                    <a href="#">Our Services</a>
-                  </li>
-                  <li>
-                    <a href="#">Expert Team</a>
-                  </li>
-                  <li>
-                    <a href="#">Contact us</a>
-                  </li>
-                  <li>
-                    <a href="#">Latest News</a>
+                    <a href="#">Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -114,21 +91,28 @@ function Footer() {
             <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
               <div className="footer-widget">
                 <div className="footer-widget-heading">
-                  <h3>Subscribe</h3>
+                  <h3>Follow Us</h3>
                 </div>
                 <div className="footer-text mb-25">
                   <p>
-                    Don’t miss to subscribe to our new feeds, kindly fill the
-                    form below.
+                    Follow us on
+                    Facebook, Instagram, and Twitter for breathtaking travel
+                    photos, insider tips, and engaging travel stories. Join our
+                    online community and let's ignite your wanderlust together!"
                   </p>
                 </div>
-                <div className="subscribe-form">
-                  <form action="#">
-                    <input type="text" placeholder="Email Address" />
-                    <button>
-                      <FaTelegramPlane />
-                    </button>
-                  </form>
+                <div className="footer-social-icon">
+                  <a href="#">
+                    <FiFacebook className="facebook-bg" />
+                  </a>
+                  <a href="#">
+                    <FiInstagram className="instagram-bg" />
+                  </a>
+                  <a href="#">
+                    <FiTwitter className="twitter-bg" />
+                  </a>
+                  
+                  {/* <a style={{color:'red', textDecoration:'none'}} href="/contactUs">Click here</a> */}
                 </div>
               </div>
             </div>
@@ -141,32 +125,11 @@ function Footer() {
             <div className="col-xl-12 col-lg-12 text-center text-lg-center text-md-center text-sm-center">
               <div className="copyright-text">
                 <p>
-                  Copyright &copy; 2023, All Right Reserved{' '}
+                  Copyright &copy; 2023, All Right Reserved{" "}
                   <a href="/">Birds Vaccation</a>
                 </p>
               </div>
             </div>
-            {/* <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-              <div className="footer-menu">
-                <ul>
-                  <li>
-                    <a href="#">Home</a>
-                  </li>
-                  <li>
-                    <a href="#">Terms</a>
-                  </li>
-                  <li>
-                    <a href="#">Privacy</a>
-                  </li>
-                  <li>
-                    <a href="#">Policy</a>
-                  </li>
-                  <li>
-                    <a href="#">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

@@ -52,6 +52,7 @@ ul {
   font-size: 14px;
       color: #7e7e7e;
   line-height: 28px;
+  text-align: justify;
 }
 .footer-social-icon span {
   color: #fff;
@@ -158,3 +159,4 @@ ul {
   font-size: 14px;
   color: #878787;
 }
+
