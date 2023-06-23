@@ -10,6 +10,8 @@ import Blogs from './pages/Blogs';
 import ContactUs from './pages/ContactUs';
 import AdminLogin from './pages/AdminLogin';
 import AdminDashboard from './pages/AdminDashboard';
+// import AdminDashboard from './pages/Payment';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,11 +26,9 @@ root.render(
     <Route path='/blogs' element={<Blogs />} />
     <Route path='/admin-login' element={<AdminLogin />} />
     <Route path='/admin-dashboard' element={<AdminDashboard />} />
-
-
+    {/* <Route path='/payment' element={<Payment />} /> */}
 
   </Routes>
-  
   
   </BrowserRouter>
 );

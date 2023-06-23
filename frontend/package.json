@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/icons": "^5.1.4",
     "@coreui/coreui": "^4.2.6",
     "@coreui/react": "^4.8.0",
     "@emotion/react": "^11.11.0",
